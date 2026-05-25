@@ -488,6 +488,51 @@ export default function Calculator() {
           padding: 14px;
           font-size: 1rem;
         }
+
+        @media (max-width: 768px) {
+          .calc-outputs {
+            padding: 24px;
+          }
+        }
+
+        @media (max-width: 576px) {
+          .calc-header h2 {
+            font-size: 1.7rem;
+          }
+          .calc-header p {
+            font-size: 0.85rem;
+          }
+          .calc-outputs {
+            padding: 16px;
+          }
+          .fee-card {
+            padding: 16px;
+            margin-bottom: 20px;
+          }
+          .fee-val {
+            font-size: 1.8rem;
+          }
+          .savings-grid {
+            grid-template-columns: 1fr;
+            gap: 12px;
+          }
+          .info-grid {
+            grid-template-columns: 1fr;
+            gap: 12px;
+          }
+          .text-input-wrap input {
+            font-size: 1.2rem;
+          }
+          .currency-prefix {
+            font-size: 1.1rem;
+          }
+          .input-val {
+            font-size: 1.1rem;
+          }
+          .breakdown-item {
+            font-size: 0.8rem;
+          }
+        }
       `}</style>
     </>
   );

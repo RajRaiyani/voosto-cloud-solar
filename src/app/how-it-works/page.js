@@ -536,6 +536,28 @@ export default function HowItWorks() {
           justify-content: center;
           gap: 16px;
         }
+
+        @media (max-width: 576px) {
+          .diagram-container {
+            padding: 24px 16px;
+          }
+          .cta-card {
+            padding: 40px 16px;
+          }
+          .cta-card h2 {
+            font-size: 1.8rem;
+          }
+          .cta-buttons {
+            flex-direction: column;
+            gap: 12px;
+          }
+          .step-card {
+            padding: 24px 16px !important;
+          }
+          .timeline-node p {
+            font-size: 0.8rem;
+          }
+        }
       `}</style>
     </>
   );

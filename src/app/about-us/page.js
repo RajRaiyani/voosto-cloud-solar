@@ -389,6 +389,29 @@ export default function AboutUs() {
           justify-content: center;
           gap: 16px;
         }
+
+        @media (max-width: 576px) {
+          .mission-quote-card {
+            padding: 24px 16px;
+          }
+          blockquote {
+            font-size: 1.05rem;
+            margin-bottom: 20px;
+          }
+          .pillar-card {
+            padding: 24px 16px;
+          }
+          .team-card {
+            padding: 24px 16px;
+          }
+          .ab-cta-card {
+            padding: 40px 16px;
+          }
+          .ab-cta-buttons {
+            flex-direction: column;
+            gap: 12px;
+          }
+        }
       `}</style>
     </>
   );
