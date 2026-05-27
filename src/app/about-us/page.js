@@ -24,16 +24,10 @@ export default function AboutUs() {
 
   const team = [
     {
-      name: "Mathew Laimayum",
-      role: "Co-Founder, Finance & Strategy",
-      bio: "Mathew leads project acquisition, financial structuring, and host agreements. He is dedicated to building sustainable, high-yield digital asset models for retail consumers.",
+      name: "Yash Dethariya",
+      role: "Founder & CEO",
+      bio: "Yash is a visionary entrepreneur dedicated to making clean energy accessible to all. He leads Cloud Solar's strategy, technology integration, and grid expansion initiatives.",
       img: "👤",
-    },
-    {
-      name: "Naseer Sathyala",
-      role: "Co-Founder, Tech & Infrastructure",
-      bio: "Naseer manages platform architecture, industrial IoT telemetry integration, and utility billing API integrations to ensure seamless credit distribution.",
-      img: "💻",
     },
   ];
 
@@ -84,8 +78,8 @@ export default function AboutUs() {
                 <div className="quote-author">
                   <div className="qa-dot" />
                   <div>
-                    <strong>Mathew & Naseer</strong>
-                    <span>Founding Team, Cloud Solar</span>
+                    <strong>Yash Dethariya</strong>
+                    <span>Founder, Cloud Solar</span>
                   </div>
                 </div>
               </div>
@@ -118,9 +112,8 @@ export default function AboutUs() {
         <section className="section-padding team-section">
           <div className="container">
             <div className="section-title-center">
-              <span className="badge">The Team</span>
-              <h2>Meet the Founders</h2>
-              <p>A group of developers, clean-energy enthusiasts, and finance experts reshaping solar accessibility.</p>
+              <h2>Meet the Founder</h2>
+              <p>The vision and driving force behind clean solar hosting accessibility.</p>
             </div>
 
             <div className="team-grid">
@@ -313,9 +306,9 @@ export default function AboutUs() {
         /* Team cards */
         .team-grid {
           display: grid;
-          grid-template-columns: repeat(2, 1fr);
+          grid-template-columns: 1fr;
           gap: 40px;
-          max-width: 800px;
+          max-width: 440px;
           margin: 0 auto;
         }
 
